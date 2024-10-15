@@ -1,0 +1,13 @@
+prefix=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv
+exec_prefix=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv
+libdir=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv/lib
+sharedlibdir=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv/lib
+includedir=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

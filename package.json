@@ -1,0 +1,11 @@
+{
+  "name": "youtube-summarizer",
+  "version": "1.0.0",
+  "main": "(app.py)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saptarshi De",
+  "license": "ISC",
+  "description": ""
+}

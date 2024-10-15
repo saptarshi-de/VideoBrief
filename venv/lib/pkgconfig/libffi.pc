@@ -1,0 +1,11 @@
+prefix=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/pradipkumarde/Desktop/Coursera Certificate/Youtube summarizer/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
